@@ -1,0 +1,62 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0f172a;
+color: white;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+padding: 15px 30px;
+background: #020617;
+position: sticky;
+top: 0;
+}
+
+nav a {
+color: #38bdf8;
+margin: 0 10px;
+text-decoration: none;
+}
+
+.hero {
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.btn {
+background: #38bdf8;
+padding: 10px 20px;
+color: black;
+text-decoration: none;
+border-radius: 5px;
+}
+
+section {
+padding: 60px 30px;
+}
+
+.skill {
+margin: 10px 0;
+}
+
+.bar {
+height: 10px;
+background: #1e293b;
+border-radius: 5px;
+}
+
+.bar span {
+display: block;
+height: 10px;
+background: #38bdf8;
+border-radius: 5px;
+}
+
+.project {
+margin-bottom: 20px;
+}
